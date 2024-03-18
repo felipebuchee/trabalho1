@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo de Johnny Five</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-<style>
+    <style>
+        * {
+            margin: 25px;
+        }
 
-    header{
-        text-align: center;
-    }
+        main{
+            border: solid 1px black;
+        }
 
-    img{
-          width: 15%;
-    }
+        header {
+            text-align: center;
+        }
 
-    section{
-        margin: 10px;
-    }
+        header img {
+            width: 15%;
+        }
 
-    body{
-        font-family:Montserrat;
-    }
 
-    h1{
-        text-align: center;
-    }
+        body {
+            font-family: Montserrat;
+        }
 
-</style>
+        h1 {
+            text-align: center;
+        }
+
+
+        #contato div{
+            position: relative;
+        }
+
+        
+        #contato div h4{
+            padding-left: 25px;
+        }
+        #contato div img{
+            width: 50px;
+            float: left;
+
+            position: absolute;
+            top: -43px;
+            left: -25px;
+        }
+    </style>
 
 </head>
+
 <body>
     <main>
         <header>
@@ -45,13 +69,22 @@
 
         <section id="perfil">
             <h2>Perfil</h2>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit quo temporibus repellat doloremque veniam quasi reprehenderit voluptatem culpa quos consectetur illo, facilis quidem quae unde ducimus eum praesentium neque?</h4>
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam asperiores nesciunt impedit quia et ex quasi, animi id veritatis maxime officia minima pariatur optio ipsa? Repellat quis dolore dolorem, animi alias enim error vero odit ad quae nobis, explicabo ipsam consequuntur ut temporibus totam officiis delectus natus ipsum excepturi eaque maxime exercitationem sapiente. Porro optio, perspiciatis ipsum voluptatem est reiciendis at accusantium nobis sequi recusandae. Sed blanditiis eos praesentium laborum, et doloribus eaque odio quasi corporis rerum saepe ut autem sapiente inventore iste molestias ad ratione accusantium maiores voluptas, dolorem facilis! Dolores hic eligendi delectus eius. Eum id at dolorum!</h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit quo temporibus repellat doloremque
+                veniam quasi reprehenderit voluptatem culpa quos consectetur illo, facilis quidem quae unde ducimus eum
+                praesentium neque?</h4>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam asperiores nesciunt impedit quia et ex
+                quasi, animi id veritatis maxime officia minima pariatur optio ipsa? Repellat quis dolore dolorem, animi
+                alias enim error vero odit ad quae nobis, explicabo ipsam consequuntur ut temporibus totam officiis
+                delectus natus ipsum excepturi eaque maxime exercitationem sapiente. Porro optio, perspiciatis ipsum
+                voluptatem est reiciendis at accusantium nobis sequi recusandae. Sed blanditiis eos praesentium laborum,
+                et doloribus eaque odio quasi corporis rerum saepe ut autem sapiente inventore iste molestias ad ratione
+                accusantium maiores voluptas, dolorem facilis! Dolores hic eligendi delectus eius. Eum id at dolorum!
+            </h4>
             <hr>
         </section>
 
         <section id="princ-comp">
-            <h2>Principais Competências</h2>
+            <h2>Principais competências</h2>
             <ul>
                 <li>Alto processamento com i9 14900K</li>
                 <li>Gráficos exuberantes com RTX3080 TI</li>
@@ -63,11 +96,57 @@
         </section>
 
         <section id="form-acad">
-            <h2>Formação Acadêmica</h2>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit quo temporibus repellat doloremque veniam quasi reprehenderit voluptatem culpa quos consectetur illo, facilis quidem quae unde ducimus eum praesentium neque?</h4>
+            <h2>Formação acadêmica</h2>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit quo temporibus repellat doloremque
+                veniam quasi reprehenderit voluptatem culpa quos consectetur illo, facilis quidem quae unde ducimus eum
+                praesentium neque?</h4>
+            <hr>
+        </section>
+
+        <section id="exp-prof">
+            <h2>Experiências profissionais</h2>
+            <ol>
+                <li>Empresa</li>
+                <ul>
+                    <li>Alto processamento com i9 14900K</li>
+                    <li>Gráficos exuberantes com RTX3080 TI</li>
+                </ul>
+
+                <li>Empresa</li>
+                <ul>
+                    <li>Ponte H de última geração</li>
+                    <li>Sistemas Operacionais: Linux, Windows, Android e IOS</li>
+                    <li>Totalmente em código aberto</li>
+                </ul>
+            </ol>
+
+            <a href="https://ifpr.edu.br/foz-do-iguacu/" target="_blank">Conheça as experiências profissionais de Jhonny
+                Five aqui</a>
+            <hr>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <div>
+            <img src="imagens/location_on_FILL0_wght100_GRAD-25_opsz48.png" alt="">
+            <h4>Praça Marechal Eduardo Gomes, 50 - Vila das Acacias, São José dos Campos - SP</h4>
+            </div>
+
+            <div>
+            <img src="imagens/call_FILL0_wght100_GRAD-25_opsz48.png" alt="">
+            <h4>+55 (45) 9 9832-3354</h4>
+            </div>
+
+            <div>
+            <img src="imagens/mail_FILL0_wght100_GRAD-25_opsz48.png" alt="">
+            <h4>patv591@gmail.com</h4>
+            </div>
+
             <hr>
         </section>
 
     </main>
 </body>
+
 </html>
